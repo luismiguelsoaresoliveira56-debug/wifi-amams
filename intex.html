@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wi-Fi AMAMS</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="container">
+
+    <img src="icone AMAMS.png" class="logo">
+
+    <!-- PRIMEIRA TELA -->
+    <div id="inicio">
+
+        <h1>Bem-vindo!</h1>
+
+        <p id="texto">
+            Antes de utilizar nossa rede Wi-Fi,
+            acompanhe a AMAMS no Instagram.
+        </p>
+
+        <a
+        href="https://www.instagram.com/amams.mg"
+        target="_blank"
+        class="instagram">
+
+            📷 Seguir no Instagram
+
+        </a>
+
+        <button id="continuar">
+
+            Já segui ✓
+
+        </button>
+
+    </div>
+
+    <!-- TELA DE CARREGAMENTO -->
+
+    <div id="loading">
+
+        <h2>Preparando seu acesso...</h2>
+
+        <p>
+            Aguarde alguns segundos.
+        </p>
+
+        <div class="barra">
+
+            <div class="progresso"></div>
+
+        </div>
+
+        <span id="contador">
+            5 segundos...
+        </span>
+
+    </div>
+
+    <!-- TELA DO WIFI -->
+
+    <div id="wifi">
+
+        <h2> Tudo pronto!</h2>
+
+        <p>
+            Agora conecte-se ao Wi-Fi da AMAMS.
+        </p>
+
+        <img src="qr_wifi.png" class="qrcode">
+
+        <div class="rede">
+
+            <strong>📶 Rede</strong>
+
+            <span>Visitantes Amams</span>
+
+        </div>
+
+        <p class="aberta">
+
+            Rede aberta (sem senha)
+
+        </p>
+
+        <p style="margin-top:20px; color:#777;">
+
+            Caso o QR Code não funcione,
+            conecte-se manualmente à rede
+            <b>Visitantes Amams</b>.
+
+        </p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
